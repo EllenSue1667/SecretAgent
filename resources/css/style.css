@@ -94,6 +94,14 @@ nav span {
   width: 57px;
 }
 
+.altnav {
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 760px;
+}
 
 /* Items */
 
@@ -111,7 +119,7 @@ nav span {
   width: 960px;
 }
 
-.itemidv {
+.itempen {
   display: flex;
   flex-direction: column;
   border: solid black 4px;
@@ -120,7 +128,7 @@ nav span {
   align-content: center;
 }
 
-.itemidv span {
+.itempen span {
   background-color: black;
   padding: .5rem 0;
   text-align: center;
@@ -129,14 +137,62 @@ nav span {
   width: 100%;
 }
 
-
-.itemidv img {
+.itempen img {
   width: auto;
   height: 9rem;
   padding: 2rem 2rem;
   max-width: 15rem;
 }
 
+.itemwatch {
+  display: flex;
+  flex-direction: column;
+  border: solid black 4px;
+  width: 30%;
+  align-items: center;
+  align-content: center;
+}
+
+.itemwatch span {
+  background-color: black;
+  padding: .5rem 0;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+.itemwatch img {
+  width: auto;
+  height: 9rem;
+  padding: 2rem 2rem;
+  max-width: 15rem;
+}
+
+.itemglasses {
+  display: flex;
+  flex-direction: column;
+  border: solid black 4px;
+  width: 30%;
+  align-items: center;
+  align-content: center;
+}
+
+.itemglasses span {
+  background-color: black;
+  padding: .5rem 0;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+.itemglasses img {
+  width: auto;
+  height: 9rem;
+  padding: 2rem 2rem;
+  max-width: 15rem;
+}
 
 /* Contact */
 
@@ -154,6 +210,12 @@ nav span {
 }
 
 .contact1 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.contact2 {
   display: flex;
   flex-direction: column;
   width: 35%;
@@ -187,4 +249,87 @@ nav span {
 
 .footer p {
   width: 960px;
+}
+
+@media only screen and (min-width: 471px) and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+  .itemglasses {
+    display: none;
+  }
+  .itemwatch {
+    width: 47%;
+  }
+  .itempen {
+    width: 47%;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .altnav {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  nav {
+    display: none;
+  }
+  .itemglasses {
+    display: none;
+  }
+  .itemwatch {
+    display: none;
+  }
+  .itempen {
+    width: 90%;
+  }
+  .item {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer p {
+    width: 100%;
+    text-align: center;
+  }
+  .featured {
+    height: 15rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .box {
+    width: 90%;
+    justify-content: center;
+    margin: 10rem 0rem 0rem 0rem;
+  }
+
+  .title {
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 0px 0px 0px 0px;
+    margin-top: 0rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .title span {
+    font-size: 0.77rem;
+  }
+  .contact {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact1 {
+    width: 90%;
+  }
+  .contact2 {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+
 }
