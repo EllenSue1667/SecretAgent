@@ -1,0 +1,190 @@
+
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: .5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  padding: .66rem 0;
+
+}
+
+/* Featured */
+
+.featured {
+  background-image: url(../images/moto.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 960px;
+}
+
+.title {
+  width: 20rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: .25rem 0px;
+}
+
+.title span {
+  padding-bottom: .25rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+
+.navigation {
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+nav {
+  color: white;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+
+}
+
+nav span {
+  width: 57px;
+}
+
+
+/* Items */
+
+.itemout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.itemidv {
+  display: flex;
+  flex-direction: column;
+  border: solid black 4px;
+  width: 30%;
+  align-items: center;
+  align-content: center;
+}
+
+.itemidv span {
+  background-color: black;
+  padding: .5rem 0;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+
+.itemidv img {
+  width: auto;
+  height: 9rem;
+  padding: 2rem 2rem;
+  max-width: 15rem;
+}
+
+
+/* Contact */
+
+.contactout {
+  width: 100%;
+  display: flex;
+  margin: 3rem 0 4rem 0;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+}
+
+.contact1 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.contacttitle {
+  background-color: black;
+  padding: 1rem 2rem;
+  text-align: left;
+  justify-content: center;
+  color: white;
+}
+
+.contactinfo {
+  text-align: left;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+
+.footer p {
+  width: 960px;
+}
